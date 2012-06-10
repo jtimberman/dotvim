@@ -13,7 +13,7 @@ set shiftwidth=2
 set tabstop=2
 set autoindent
 set number
-set bg=light
+set bg=dark
 " Set certain options if a gui is running
 " &term =~ "xterm-256"
 if has("gui_running")
@@ -22,12 +22,8 @@ if has("gui_running")
   set guioptions-=TlLb
   set lines=60
   set columns=120
-  colorscheme ir_black
-elseif &term =~ "-256color"
-	colorscheme ir_black
-else
-  colorscheme default
 endif
+colorscheme solarized
 set hidden
 set ignorecase
 set vb " turns off visual bell
