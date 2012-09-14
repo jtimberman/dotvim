@@ -13,7 +13,7 @@ set shiftwidth=2
 set tabstop=2
 set autoindent
 set number
-set bg=dark
+set bg=light
 " Set certain options if a gui is running
 " &term =~ "xterm-256"
 if has("gui_running")
